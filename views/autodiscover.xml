@@ -5,7 +5,6 @@
       <DisplayName>{{info.name}}</DisplayName>
       <LegacyDN>/o=First Organization/ou=First Administrative Group/cn=Recipients/cn={{email}}</LegacyDN>
       <AutoDiscoverSMTPAddress>{{email}}</AutoDiscoverSMTPAddress>
-      <DeploymentId>36684036-ae06-33a2-ba13-d4fcf6c3bcbe</DeploymentId>
     </User>
     <Account>
       <AccountType>email</AccountType>
@@ -43,6 +42,6 @@
         <SPA>off</SPA>
       </Protocol>
       {% endif -%}
-    </Account>
+  </Account>
   </Response>
 </Autodiscover>
