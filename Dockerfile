@@ -22,4 +22,4 @@ ARG VERSION=1.4.0
 
 # Container labels (http://label-schema.org/)
 # Container annotations (https://github.com/opencontainers/image-spec)
-LABEL org.opencontainers.image.source="https://github.com/RussellSchutle/autodiscover-email-settings"
+LABEL org.opencontainers.image.source="https://github.com/russellschutle/autodiscover-email-settings"
